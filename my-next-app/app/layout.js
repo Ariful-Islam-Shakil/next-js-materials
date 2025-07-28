@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   const [githubRepo, setGithubRepo] = React.useState("");
   const [branch, setBranch] = React.useState("main");
 
-  const pythonVersions = ["3.7", "3.8", "3.9", "3.10", "3.11"];
+  const pythonVersions = ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12"];
   const branches = ["main", "dev", "feature"];
 
   return (
